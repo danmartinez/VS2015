@@ -1,0 +1,19 @@
+﻿<Page
+    x:Class="REST_JSON_Test1.MainPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:REST_JSON_Test1"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d">
+
+    <Grid Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="*"/>
+            <ColumnDefinition Width="400"/>
+            <ColumnDefinition Width="*"/>
+        </Grid.ColumnDefinitions>
+
+        <Button x:Name="btn_RESTSDK_JSON_Test_1" Grid.Column="1" Content="C++ REST SDK (Casablanca) + JSON Test 1" HorizontalAlignment="Stretch" Padding="8,20" Click="btn_RESTSDK_JSON_Test_1_Click"/>
+    </Grid>
+</Page>
